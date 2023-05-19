@@ -1,0 +1,257 @@
+@media (max-width: 1024px){
+  body{
+    width: 1024px;
+  }
+
+  /*                       header                          */
+  .header{
+    height: 45px;
+  }
+
+  .header_list{
+    display: flex;
+    gap:20px;
+  }
+
+  .header_logo_img{
+    width: 55px;
+  }
+
+  .list_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 48px;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    text-decoration: none;
+  }
+
+  /*                       hero                            */
+
+  .hero{
+    background-image: url(/img/bg_hero2.png);
+    width: 1024px;
+    height: 246px;
+    display: flex;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero_info{
+    width: 240px;
+    height: 142px;
+    gap: 18px;
+  }
+
+  .line{
+    width: 200px;
+  }
+
+  .hero_text{
+    width: 200px;
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  /*                            About                      */
+
+  .about_img{
+    width: 324px;
+    height: 305px;
+  }
+
+  .about_title{
+    font-size: 28px;
+  }
+
+  .about_text {
+    font-size: 14px;
+    line-height: 17px;
+    width: 338px;
+  }
+
+  .about_date{
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .about_hover__active_text{
+    font-size: 14px;
+    line-height: 17px;
+    width: 338px;
+  }
+
+  .about_active{
+    width: 700px;
+  }
+
+  .about_hover__active{
+    left: -150px;
+    top: 0px;
+  }
+
+  .about_position{
+    right: -580px;
+    bottom: -5px;
+  }
+
+  .about_position:hover .about_hover__active{
+    display: block;
+  }
+
+  /*                           Catalog                     */
+
+  .catalog_title{
+    font-size: 32px;
+  }
+
+  .poduct{
+    width: 90px;
+    height: 180px;
+  }
+
+  .poducts_img{
+    width: 50px;
+    height: 150px;
+  }
+
+  .product_info_img{
+    width: 160px;
+    height: 280px;
+  }
+
+  .product_info_img__img{
+    width: 60px;
+    height: 240px;
+  }
+
+  .product_info_list{
+    gap: 20px;
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .reviews{
+    width: 920px;
+    height: 353px;
+    gap: 40px;
+  }
+
+  .reviews_people{
+    width: 300px;
+    height: 200px;
+  }
+
+  .reviews_people_text{
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  /*                           Gallery                     */
+
+  .Gallery_background{
+    width: 1024px;
+    height: 691px;
+    background-repeat: no-repeat;
+    background-image: url(/img/word2.png);
+  }
+
+  .Gallery_title{
+    font-size: 24px;
+  }
+
+  .Gallery_text{
+    font-size: 18px;
+  }
+
+  .Gallery_img_background{
+    width: 200px;
+    height: 125px;
+  }
+
+  .Gallery_img{
+    width: 180px;
+    height: 105px;
+  }
+
+  .Gallery_position_1{
+    position: absolute;
+    left: 50px;
+    top: 250px;
+  }
+  
+  .Gallery_position_2{
+    position: absolute;
+    right: 200px;
+    top: 170px;
+  }
+  
+  .Gallery_position_3{
+    position: absolute;
+    bottom: 125px;
+    left: 150px;
+  }
+
+  /*                           Feedback                    */
+
+  .Feedback_title{
+    font-size: 32px;
+  }
+
+  .Feedback_forms {
+    width: 400px;
+    height: 600px;
+  }
+
+  .Feedback_forms_bacground_imege{
+    width: 400px;
+    height: 600px;
+    gap: 15px;
+  }
+
+  .input{
+    width: 329px;
+    height: 67px;
+    padding: 15px;
+  }
+
+  .ask{
+    padding: 15px;
+    width: 329px;
+  }
+
+  .button_text{
+    font-size: 28px;
+  }
+
+  .Feedback_forms_button{
+    width: 200px;
+    height: 90px;
+  }
+  
+  .Feedback_box_img{
+    width: 188px;
+  }
+
+  .Feedback_box_info{
+    width: 272px;
+    height: 94px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Feedback_box_info_img{
+    width: 76px;
+    height: 72px;
+
+  }
+
+  /*                           footer                      */
+
+  .footer_text{
+    font-size: 12px;
+    line-height: 15px;
+  }
+}

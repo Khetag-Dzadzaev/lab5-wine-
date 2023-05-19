@@ -22,7 +22,6 @@ body{
 
 .header_menu_list{
   padding-right: 70px;
-  list-style-type: none;
 }
 
 .header_list{
@@ -38,6 +37,10 @@ body{
   color: #FFFFFF;
   font-family: 'Inter';
   text-decoration: none;
+}
+
+.list{
+  list-style-type: none;
 }
 
 /*                            Hero                         */
@@ -146,8 +149,7 @@ body{
 
 .about_hover__active{
   position: absolute;
-  left: -1150px;
-  top: -650px;
+  left: -758px;
   background-color: #D2CFCF;
   display: none;
   opacity: 0.9;
@@ -162,7 +164,6 @@ body{
 
 .about_position:hover .about_hover__active{
   display: block;
-  color:red;
 }
 
 .red{
@@ -493,3 +494,4 @@ body{
   color: #FFFFFF;
   font-family: 'Inter';
 }
+
