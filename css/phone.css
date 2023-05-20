@@ -1,6 +1,6 @@
-@media (max-width: 767px){
+@media (max-width: 412px){
   body{
-    max-width: 767px;
+    max-width: 412px;
   }
 
   /*                       header                         */
@@ -13,7 +13,7 @@
 
   .header{
     position: fixed;
-    width: 768px;
+    width: 412px;
     opacity: 0.95;
   }
 
@@ -82,24 +82,60 @@
    /*                       hero                            */
 
   .hero{
+    width: 412px;
     height: 375px;
   }
 
   /*                            About                      */
 
+  .about{
+    align-items: center;
+  }
+
+  .about_img{
+    width: 150px;
+  }
+
+  .about_text{
+    width: 150px;
+  }
+
+  .about_active{
+  position: relative;
+  width: 100px;
+}
+
+  .about_date{
+    width: 150px;
+}
+
+  .about_position{
+    right: -75px;
+    bottom: -3px;
+  }
+
   .about_hover__active{
-    left: -200px;
+    left: -295px;
   }
 
   /*                           Catalog                     */
 
   .reviews{
-    margin-left: 125px;
+    margin-left: 55px;
     display: flex;
     flex-direction: column;
-    width: 500px;
-    height: 750px;
+    width: 300px;
+    height: 1050px;
     gap: 40px;
+  }
+
+  .reviews_people{
+    width: 150px;
+    height: 375px;
+  }
+
+  .reviews_people_text{
+    width: 150px;
   }
 
   /*                           Gallery                       */
@@ -107,43 +143,64 @@
   .Gallery_title{
     position: absolute;
     display: inline-block;
-    width: 500px;
-    left: 125px;
+    width: 250px;
+    left: 75px;
   }
 
   .Gallery_background{
     background-image: url(/img/word3.png);
     width: 767px;
-    height: 1500px;
+    height: 1200px;
   }
 
   .Gallery_img{
-    width: 375px;
-    height: 300px;
+    width: 275px;
+    height: 200px;
   }
 
   .Gallery_img_background{
-    width: 400px;
-    height: 325px;
+    width: 300px;
+    height: 225px;
   }
 
   .Gallery_position_1{
     position: absolute;
-    left: 200px;
+    left: 35px;
     top: 300px;
   }
   
   .Gallery_position_2{
     position: absolute;
-    left: 200px;
-    top: 700px;
+    left: 35px;
+    top: 600px;
   }
   
   .Gallery_position_3{
     position: absolute;
-    bottom: 50px;
-    left: 200px;
+    top: 900px;
+    left: 35px;
   }
 
+  .Feedback_block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Feedback_forms_bacground_imege{
+    width: 350px;
+  }
+
+  .Feedback_forms{
+    width: 350px;
+  }
+
+  .input{
+    width: 300px;
+  }
+
+  .ask{
+    width: 300px;
+  }
 }
 
