@@ -30,8 +30,9 @@
   /*                       hero                            */
 
   .hero{
-    background-image: url(/img/bg_hero2.png);
-    width: 1024px;
+    background-image: url(/img/bg_hero.png);
+    width: 100%;
+    background-repeat: no-repeat;
     height: 246px;
     display: flex;
     object-fit: cover;
@@ -155,6 +156,7 @@
     width: 1024px;
     height: 691px;
     background-repeat: no-repeat;
+    position: relative;
     background-image: url(/img/word2.png);
   }
 

@@ -1,0 +1,149 @@
+@media (max-width: 767px){
+  body{
+    max-width: 767px;
+  }
+
+  /*                       header                         */
+
+  .burger_menu{
+    display: flex;
+    border: none;
+    z-index: 1;
+  }
+
+  .header{
+    position: fixed;
+    width: 768px;
+    opacity: 0.95;
+  }
+
+  .header_menu{
+    position: relative;
+  }
+
+  .header_menu_list{
+    position: absolute;
+    width: 160px;
+    height: 284px;
+    right: -240px;
+    top: 0;
+    background-image: url(/img/burger_menu_background.png);
+  }
+
+  .header_list{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 25px 15px;
+  }
+
+  .list_text{
+    display: inline-block;
+    width: 39px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .list_text_width{
+    display: inline-block;
+    width: 150px;
+  }
+
+  .header.open .header_menu_list{
+    transform: rotateX(100%);
+  }
+
+  .burger_menu.active{
+    flex-direction: row;
+  }
+
+  .burger_menu.active{
+    background-color: #fff;
+  }
+
+  .burger_menu.active .burger_menu_line_2{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #4D030B;
+  }
+
+  .burger_menu.active .burger_menu_line_1{
+    display: none;
+  }
+
+  .burger_menu.active .burger_menu_line_3{
+    display: none;
+  }
+
+  .header_menu_list.active{
+    right: 0px;
+  }
+   /*                       hero                            */
+
+  .hero{
+    height: 375px;
+  }
+
+  /*                            About                      */
+
+  .about_hover__active{
+    left: -200px;
+  }
+
+  /*                           Catalog                     */
+
+  .reviews{
+    margin-left: 125px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 750px;
+    gap: 40px;
+  }
+
+  /*                           Gallery                       */
+
+  .Gallery_title{
+    position: absolute;
+    display: inline-block;
+    width: 500px;
+    left: 125px;
+  }
+
+  .Gallery_background{
+    background-image: url(/img/word3.png);
+    width: 767px;
+    height: 1500px;
+  }
+
+  .Gallery_img{
+    width: 375px;
+    height: 300px;
+  }
+
+  .Gallery_img_background{
+    width: 400px;
+    height: 325px;
+  }
+
+  .Gallery_position_1{
+    position: absolute;
+    left: 200px;
+    top: 300px;
+  }
+  
+  .Gallery_position_2{
+    position: absolute;
+    left: 200px;
+    top: 700px;
+  }
+  
+  .Gallery_position_3{
+    position: absolute;
+    bottom: 50px;
+    left: 200px;
+  }
+
+}
+

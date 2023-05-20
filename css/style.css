@@ -1,5 +1,5 @@
 body{
-  width: 1920px;
+  max-width: 1920px;
 }
 
 .container{
@@ -42,6 +42,27 @@ body{
 .list{
   list-style-type: none;
 }
+
+.burger_menu{
+  border: none;
+  background-color: #4D030B;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-right: 25px;
+  display: none;
+}
+
+.burger_menu_line{
+  width: 20px;
+  height: 2px;
+  background-color: #fff;
+}
+
 
 /*                            Hero                         */
 
